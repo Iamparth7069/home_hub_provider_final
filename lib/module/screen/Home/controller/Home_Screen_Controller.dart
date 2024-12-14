@@ -99,6 +99,7 @@ class HomeScreenController extends GetxController {
     isLoading.value = false;
   }
 
+  List<String> nuber = ["Hello","Parth"];
   List<GDPData> getchatData() {
     final List<GDPData> chatData = [
       GDPData("sunday", 1600),
